@@ -10,7 +10,7 @@ namespace Task3_Braces_v2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите любое предложение c фигурными скобками. Удаляется всё между крайних фигурных скобок. В конце нажмите Enter");
+            Console.WriteLine("Введите любое предложение c фигурными скобками. Удаляется всё с учётом парности скобок. В конце нажмите Enter");
             string sentence = Console.ReadLine();
             //string sentence = "{вообще} такое} например} {или {например{вот {такое}}";
 
